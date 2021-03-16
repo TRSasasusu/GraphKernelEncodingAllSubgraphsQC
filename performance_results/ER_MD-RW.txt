@@ -1,0 +1,17 @@
+Extracting dataset  ER_MD..
+Parsing dataset  ER_MD..
+Parse was succesful..
+Deleting unzipped dataset files..
+Going back to the original directory..
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+train_acc: 0.6097181805449651, train_f1: 0.05771812080536912, test_acc: 0.6205769230769229, test_f1: 0.06666666666666667
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+train_acc: 0.6111148285896577, train_f1: 0.059259259259259255, test_acc: 0.608076923076923, test_f1: 0.05161290322580646
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+train_acc: 0.6055282364108868, train_f1: 0.0, test_acc: 0.6055769230769229, test_f1: 0.0
+acc: 0.6073269230769228(0.00472140515807177)
+f1: 0.011827956989247313(0.025186704072775432)
