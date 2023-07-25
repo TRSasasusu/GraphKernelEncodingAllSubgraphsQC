@@ -9,10 +9,10 @@ def calc_SP(adjacency_matrices, max_vertices, dir_name):
 
     for i, i_data in enumerate(data):
         text = ''
-        if i_data.shape[2] > MAX_VERTICES:
+        if i_data.shape[2] > max_vertices:
             continue
         for j, j_data in enumerate(data):
-            if j_data.shape[2] > MAX_VERTICES:
+            if j_data.shape[2] > max_vertices:
                 continue
             if i > j:
                 continue
