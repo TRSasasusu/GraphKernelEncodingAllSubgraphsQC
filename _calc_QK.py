@@ -9,11 +9,15 @@ def calc_QK(adjacency_matrices, max_vertices, dir_name, is_BH, use_d):
 
     for i, i_data in enumerate(adjacency_matrices):
         text = ''
+        if i_data.shape[1] > max_vertices:
+            continue
 
         graphs[i] = Graph.make_graph(i_data, use_d)
         save_graph_prob(dir_name, graphs[i], i)
 
         for j, j_data in enumerate(adjacency_matrices):
+            if j_data.shape[1] > max_vertices:
+                continue
             if i > j:
                 continue
 
